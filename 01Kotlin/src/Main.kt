@@ -18,19 +18,19 @@ fun main(args:Array<String>){
     val sueldo = 12.20
     val apellidoProfesor = 'a'
     val fechaNacimietno = Date() //New Date
-    if(sueldo ==12.20){
+    /*if(sueldo ==12.20){
 
     }else{
 
-    }
+    }*/
     //nuestro switch en kotlin
     when(sueldo){
         12.20 -> print("Sueldo Normal")
         -12.20 -> print("sueldo Negativo")
-        else -> printlin("no se reconoce el sueldo")
+        else -> println("no se reconoce el sueldo")
 
     }
-    val esSueldoMayorEstabecido = if (sueldo == 12.20) true else false
+    //val esSueldoMayorEstabecido = if (sueldo == 12.20) true else false
     //expresion ? X : V
     calcularSueldo(1000.00,14.00)
     calcularSueldo(tasa = 16.00, sueldo = 800.00) //parametros nombrados, se pueden mandar en el orden que se quiera.
@@ -43,6 +43,7 @@ fun calcularSueldo(sueldo:Double, tasa:Double = 12.00, calculoEspecial: Int? = n
     }else{
         return sueldo * tasa
     }
+
 
 }
 fun imprimirMensaje():Unit { //unit = void
