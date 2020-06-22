@@ -171,7 +171,17 @@ fun main(args: Array<String>) {
         .fold(100.00, { acc, d -> acc - d })
         .also { println(it) }
 
-}
+//    val nuevoNumeroUno = SumarDosNumerosDos(1,1)
+//    val nuevoNumeroDos = SumarDosNumerosDos(null,1)
+//    val nuevoNumeroTres = SumarDosNumerosDos(1,null)
+//    val nuevoNumeroCuatro = SumarDosNumerosDos(null,null)
+    val nuevoNumeroUno = SumarDosNumerosDos(1, 1)
+    val nuevoNumeroDos = SumarDosNumerosDos(null, 1)
+    val nuevoNumeroTres = SumarDosNumerosDos(1, null)
+    val nuevoNumeroCuatro = SumarDosNumerosDos(null, null)
+
+
+}// Cerrado MAIN
 
 fun calcularSueldo(
     sueldo: Double, // Requeridos!
@@ -204,29 +214,53 @@ abstract class NumerosJava {  // val nuevosNumeros = Numeros(1,2)
 }
 
 abstract class Numeros( // val nuevosNumeros = Numeros(1,2)
-    protected val numeroUno: Int,
-    protected val numeroDos: Int
+    protected var numeroUno: Int,
+    protected var numeroDos: Int
 ) {
 }
 
 class Suma(
-    uno: Int,
-    dos: Int
+    uno: Int, // Parametro
+    dos: Int // Parametro
 ) : Numeros(uno, dos) {
-    fun sumar():Int{
-        // this.uno
+    fun sumar(): Int {
+        // this.uno o this.dos NO ESTAN DISPONIBLES
         return this.numeroUno + this.numeroDos
     }
 }
 
 class SumaDos(
-    public var uno: Int,
-    public var dos: Int
+    uno: Int, // Propiedades
+    dos: Int // Propiedades
 ) : Numeros(uno, dos) {
-    fun sumar(): Int {
-        this.uno
 
-        this.dos
+    fun sumar(): Int {
         return this.numeroUno + this.numeroDos
+    }
+}
+
+class SumarDosNumerosDos(
+    uno: Int,
+    dos: Int
+) : Numeros(uno, dos) {
+    constructor(uno: Int?, dos: Int) : this(
+        if (uno == null) 0 else uno,
+        dos
+    ) {
+        print("Hola 1")
+    }
+
+    constructor(uno: Int, dos: Int?) : this(
+        uno,
+        if (dos == null) 0 else dos
+    ) {
+        print("Hola 2")
+    }
+
+    constructor(uno: Int?, dos: Int?) : this(
+        if (uno == null) 0 else uno,
+        if (dos == null) 0 else dos
+    ) {
+        print("Hola 3")
     }
 }
