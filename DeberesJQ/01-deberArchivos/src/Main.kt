@@ -11,10 +11,19 @@ fun main(args: Array<String>){
         var opcion = readLine()!!.toInt()
         if(opcion == 1){
             pais.crear_pais()
+            println("Ciudad Existente?: (1) Si o (2)No")
+            var existe = readLine()!!.toInt()
+            if (existe==2){
+                ciudad.crear_ciudad()
+
+            }else{
+                println("Guardado")
+            }
 
 
         }else if (opcion == 2){
             pais.leer_pais()
+
 
 
         }else if (opcion == 3){
@@ -89,10 +98,10 @@ class Pais{
         println("Ciudad")
         var ciudad = readLine()!!.toString()
         try{
-            val filewriter = FileWriter(path, true)
-            filewriter.write("$id_pais:$nombre:$area:$costa:$ciudad")
+            val file_writer = FileWriter(path, true)
+            file_writer.write("$id_pais:$nombre:$area:$costa:$ciudad")
             println("Pais guardado")
-            filewriter.close()
+            file_writer.close()
 
 
         }catch (ex: Exception){
@@ -163,7 +172,7 @@ class Pais{
         val path = "./src/Pais.txt"
         println("Ingrese el indice del pais: ")
         var indice=readLine()!!.toString()
-        println("Asi se ve: "+indice)
+        //println("Asi se ve: "+indice)
         var array_pais = ArrayList<String>()
         File(path).forEachLine { line -> array_pais.add(line)}
         var indice_borrar = array_pais.indexOfFirst{ line->line.split(":")[0]== indice }
@@ -214,10 +223,10 @@ class Ciudad{
         println("Nombre del alcalde: ")
         var alcalde = readLine()!!.toString()
         try{
-            val file_writer = FileWriter(path, true)
-            file_writer.write("$id_ciudad:$nombre_ciudad:$habitantes:$puerto:$alcalde")
+            val file_ciudad = FileWriter(path, true)
+            file_ciudad.write("$id_ciudad:$nombre_ciudad:$habitantes:$puerto:$alcalde")
             println("Ciudad guardada")
-            file_writer.close()
+            file_ciudad.close()
 
 
         }catch (ex: Exception){
@@ -272,11 +281,11 @@ class Ciudad{
 
         }
         try {
-            val file_writer = FileWriter(path,true)
+            val file_ciudad = FileWriter(path,true)
             File(path).writeText("")
-            array_pais.forEach { file_writer.write(it+"\n") }
+            array_pais.forEach { file_ciudad.write(it+"\n") }
             println("Pais Editado.")
-            file_writer.close()
+            file_ciudad.close()
 
         }catch (ex: Exception){
             println("No se pudo Editar el Pais.")
