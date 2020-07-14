@@ -743,6 +743,8 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btn_anadir
+id btn_ciclo_vida
 id buttonPanel
 id center_vertical
 id chains
@@ -852,6 +854,7 @@ id titleDividerNoCustom
 id title_template
 id top
 id topPanel
+id tv_numero
 id unchecked
 id uniform
 id up
@@ -899,6 +902,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_ciclo_vida
 layout activity_main
 layout custom_dialog
 layout notification_action
