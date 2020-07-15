@@ -48,6 +48,10 @@
         "source": "C:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_b_list_view.xml.flat",
+        "source": "C:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\src\\main\\res\\layout\\activity_b_list_view.xml"
+    },
+    {
         "merged": "C:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
         "source": "C:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
