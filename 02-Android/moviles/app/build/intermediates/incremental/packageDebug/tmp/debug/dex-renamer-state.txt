@@ -1,4 +1,4 @@
-#Tue Jul 14 00:56:46 COT 2020
+#Wed Jul 15 01:21:40 COT 2020
 base.0=C\:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
