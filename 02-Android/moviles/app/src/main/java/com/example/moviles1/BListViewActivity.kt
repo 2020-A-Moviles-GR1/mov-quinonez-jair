@@ -30,7 +30,22 @@ class BListViewActivity : AppCompatActivity() {
 
 
         }
+        btn_anadir_entrenador.setOnClickListener {
+            anadirEntrenador(
+                adactador,listEntrenador
+            )
 
+        }
+
+
+
+    }
+    fun anadirEntrenador(
+        adactador: ArrayAdapter<Entrenador>,
+        listEntrenador: ArrayList<Entrenador>
+    ){
+        listEntrenador.add(Entrenador("AGregado","Agregado"))
+        adactador.notifyDataSetChanged()
 
     }
 }
