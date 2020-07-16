@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_intent_envia_parametros.xml.flat",
+        "source": "C:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\src\\main\\res\\layout\\activity_intent_envia_parametros.xml"
+    },
+    {
         "merged": "C:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
     },
