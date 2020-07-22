@@ -747,6 +747,7 @@ id btn_anadir
 id btn_anadir_entrenador
 id btn_ciclo_vida
 id btn_devolver_respuesta
+id btn_intent_implicito
 id btn_intent_respuesta
 id btn_list_view
 id buttonPanel

@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import kotlinx.android.synthetic.main.activity_intent_envia_parametros.*
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +19,18 @@ class MainActivity : AppCompatActivity() {
         btn_list_view.setOnClickListener { boton ->
             irListView()
         }
+        btn_intent_respuesta.setOnClickListener { boton ->
+            irIntentEnviar()
+        }
+    }
+    fun irIntentEnviar(){
+        val intentExplicito=Intent(
+            this,
+            IntentEnviaParametros::class.java
+        )
+        intentExplicito.putExtra("numero",2)
+        startActivity(intentExplicito)
+
     }
     fun irCicloDeVida(){
         val intentExplicito = Intent(
