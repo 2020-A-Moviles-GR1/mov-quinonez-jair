@@ -20,7 +20,15 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.moviles1.IntentEnviaParametros" />
+        <activity android:name="com.example.moviles1.IntentEnviaParametros" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="text/plain" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.example.moviles1.BListViewActivity" />
         <activity android:name="com.example.moviles1.CicloVida" />
         <activity android:name="com.example.moviles1.MainActivity" >
