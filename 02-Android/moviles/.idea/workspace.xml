@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="intent" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="resultado" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -147,25 +147,25 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="92" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1593434629357" />
-    <state width="1323" height="136" key="GridCell.Tab.0.bottom" timestamp="1595250501400">
+    <state width="1323" height="120" key="GridCell.Tab.0.bottom" timestamp="1595510375446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="136" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595250501400" />
+    <state width="1323" height="120" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595510375446" />
     <state width="778" height="275" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594699822732" />
-    <state width="1323" height="136" key="GridCell.Tab.0.center" timestamp="1595250501399">
+    <state width="1323" height="120" key="GridCell.Tab.0.center" timestamp="1595510375445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="136" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595250501399" />
+    <state width="1323" height="120" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595510375445" />
     <state width="778" height="275" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594699822732" />
-    <state width="1323" height="136" key="GridCell.Tab.0.left" timestamp="1595250501399">
+    <state width="1323" height="120" key="GridCell.Tab.0.left" timestamp="1595510375445">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="136" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595250501399" />
+    <state width="1323" height="120" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595510375445" />
     <state width="778" height="275" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594699822732" />
-    <state width="1323" height="136" key="GridCell.Tab.0.right" timestamp="1595250501399">
+    <state width="1323" height="120" key="GridCell.Tab.0.right" timestamp="1595510375446">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="136" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595250501399" />
+    <state width="1323" height="120" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595510375446" />
     <state width="778" height="275" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594699822732" />
     <state width="778" height="275" key="GridCell.Tab.1.bottom" timestamp="1594699822733">
       <screen x="0" y="0" width="1600" height="860" />
@@ -188,6 +188,10 @@
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1594700935580" />
     <state x="216" y="7" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1594698154148" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1595742138821">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.728@0.0.1366.728" timestamp="1595742138821" />
     <state x="108" y="109" width="1385" height="643" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1594699531302">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
