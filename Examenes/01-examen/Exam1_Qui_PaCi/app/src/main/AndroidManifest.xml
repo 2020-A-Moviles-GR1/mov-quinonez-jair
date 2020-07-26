@@ -9,9 +9,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Ciudad"></activity>
-        <activity android:name=".Pais" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".VistaCiudades"
+            android:parentActivityName=".Ciudad"
+            android:label="LIS-CIUDADES"></activity>
+        <activity android:name=".VistaPaises"
+            android:parentActivityName=".Pais"
+            android:label="LIST-PAISES"/>
+        <activity android:name=".Ciudad"
+            android:parentActivityName=".MainActivity"
+            android:label="ADD/EDIT-CIUDAD"/>
+        <activity android:name=".Pais"
+            android:label="ADD/EDIT-PAIS"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity"
+            android:label="PAISES-CIUDADES">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

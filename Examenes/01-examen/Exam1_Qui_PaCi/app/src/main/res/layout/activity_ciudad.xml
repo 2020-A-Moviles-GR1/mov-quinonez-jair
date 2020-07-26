@@ -7,50 +7,90 @@
     tools:context=".Ciudad">
 
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/text_alcalde"
         android:layout_width="366dp"
         android:layout_height="52dp"
+        android:layout_marginTop="48dp"
         android:ems="10"
+        android:hint="Alcalde"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="315dp" />
+        app:layout_constraintEnd_toEndOf="@+id/text_puerto"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_puerto"
+        app:layout_constraintTop_toBottomOf="@+id/text_puerto" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName3"
+        android:id="@+id/text_puerto"
         android:layout_width="366dp"
         android:layout_height="52dp"
+        android:layout_marginTop="32dp"
         android:ems="10"
+        android:hint="Puerto"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="254dp" />
+        app:layout_constraintEnd_toEndOf="@+id/text_habitaciones"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/text_habitaciones"
+        app:layout_constraintTop_toBottomOf="@+id/text_habitaciones" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/text_nombreCiudad"
         android:layout_width="366dp"
         android:layout_height="52dp"
+        android:layout_marginTop="36dp"
         android:ems="10"
+        android:hint="Nombre Ciudad"
         android:inputType="textPersonName"
-        android:text="Name"
-        tools:layout_editor_absoluteX="-2dp"
-        tools:layout_editor_absoluteY="157dp" />
+        app:layout_constraintEnd_toEndOf="@+id/text_idCiudad"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/text_idCiudad"
+        app:layout_constraintTop_toBottomOf="@+id/text_idCiudad" />
 
     <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/text_idCiudad"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="96dp"
         android:ems="10"
+        android:hint="ID"
         android:inputType="number"
-        tools:layout_editor_absoluteX="71dp"
-        tools:layout_editor_absoluteY="42dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextNumberDecimal"
+        android:id="@+id/text_habitaciones"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="Nro. Habitantes"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/text_nombreCiudad"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/text_nombreCiudad"
+        app:layout_constraintTop_toBottomOf="@+id/text_nombreCiudad" />
+
+    <Button
+        android:id="@+id/btn_verCiudad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="209dp" />
+        android:layout_marginTop="64dp"
+        android:text="Ver Ciudades"
+        app:layout_constraintEnd_toEndOf="@+id/text_alcalde"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/btn_guardarCiudad"
+        app:layout_constraintTop_toBottomOf="@+id/text_alcalde" />
+
+    <Button
+        android:id="@+id/btn_guardarCiudad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Guardar"
+        app:layout_constraintEnd_toEndOf="@+id/text_alcalde"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_alcalde"
+        app:layout_constraintTop_toBottomOf="@+id/text_alcalde" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
