@@ -16,15 +16,30 @@ class IntentEnviaParametros : AppCompatActivity() {
         if(numero_encontrado != 0){
             Log.i("intents", "El numero encontrado es ${numero_encontrado}")
         }
+        val micha = intent.getParcelableExtra<Mascota>("mascota")
+        if (micha != null){
+            Log.i("parcelable", "${micha.nombre}  ${micha.duenio?.nombre}")
+        }
+        val arregloMascota = intent.getParcelableArrayListExtra<Mascota>("arregloMascotas")
+        if (arregloMascota != null){
+            arregloMascota.forEach{
+                if(it != null){
+                    Log.i("parcelable", "EN ARREGLO")
+                    Log.i("parcelable", "${it.nombre}  ${it.duenio?.nombre}")
+                }
+
+            }
+        }
+
         btn_devolver_respuesta.setOnClickListener {
             finish()//para terminar la actividad
         }
         btn_resp_aceptar.setOnClickListener {
             val nombre = "Jair"
             val edad = 23
-            var intentRespuesta = Intent()
-            intentRespuesta.putExtra("Jair", nombre)
-            intentRespuesta.putExtra("23", edad)
+            val intentRespuesta = Intent()
+            intentRespuesta.putExtra("nombre", nombre)
+            intentRespuesta.putExtra("edad", edad)
             setResult(
                 RESULT_OK,
                 intentRespuesta
