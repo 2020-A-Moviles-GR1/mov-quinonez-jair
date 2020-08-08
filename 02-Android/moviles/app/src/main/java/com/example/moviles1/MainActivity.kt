@@ -8,7 +8,7 @@ import android.provider.ContactsContract
 import android.util.Log
 import kotlinx.android.synthetic.main.activity_intent_envia_parametros.*
 import kotlinx.android.synthetic.main.activity_main.*
-
+import java.util.*
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -45,6 +45,18 @@ class MainActivity : AppCompatActivity() {
             IntentEnviaParametros::class.java
         )
         intentExplicito.putExtra("numero",2)
+        val jair = Usuario(
+            "Jair",
+            31,
+            Date(),
+            1.0
+        )
+        val micha = Mascota("micha", jair)
+        val arregloMascotas = arrayListOf<Mascota>(micha)
+
+
+        intentExplicito.putExtra("mascota", micha)
+        intentExplicito.putExtra("arregloMascotas", arregloMascotas)
         startActivity(intentExplicito)
 
     }
@@ -52,7 +64,7 @@ class MainActivity : AppCompatActivity() {
         var intenConRespesta = Intent(Intent.ACTION_PICK,
         ContactsContract.CommonDataKinds.Phone.CONTENT_URI
         )
-        startActivityForResult(intenConRespesta, 304)
+        startActivityForResult(intenConRespesta, 305)
     }
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
@@ -61,7 +73,7 @@ class MainActivity : AppCompatActivity() {
             RESULT_OK -> {
                 when(requestCode){
                     304 -> {
-                        /*val uri = data?.data
+                        val uri = data?.data
                         if (uri != null) {
                             val cursor = contentResolver.query(
                                 uri,
@@ -78,7 +90,7 @@ class MainActivity : AppCompatActivity() {
                             val telefono = cursor?.getString(indiceTelefono!!)
                             cursor?.close()
                             Log.i("resultado", "Telefono: ${telefono}")
-                        }*/
+                        }
                     }
                     305 -> {
                         if (data != null){

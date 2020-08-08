@@ -6,7 +6,7 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="resultado" />
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="parcelable" />
     <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
@@ -17,7 +17,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="Nexus_5X_API_29" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="1b5df26b" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -48,6 +48,7 @@
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-07-14T02:56:23.572Z" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.language" />
   </component>
   <component name="RecentsManager">
@@ -147,25 +148,29 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="363" y="92" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.728@0.0.1366.728" timestamp="1593434629357" />
-    <state width="1323" height="120" key="GridCell.Tab.0.bottom" timestamp="1595510375446">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom" timestamp="1596717430962">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="120" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1595510375446" />
+    <state width="1323" height="140" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1596717430962" />
     <state width="778" height="275" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1594699822732" />
-    <state width="1323" height="120" key="GridCell.Tab.0.center" timestamp="1595510375445">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="140" key="GridCell.Tab.0.center" timestamp="1596717430962">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="120" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1595510375445" />
+    <state width="1323" height="140" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1596717430962" />
     <state width="778" height="275" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1594699822732" />
-    <state width="1323" height="120" key="GridCell.Tab.0.left" timestamp="1595510375445">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="140" key="GridCell.Tab.0.left" timestamp="1596717430962">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="120" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1595510375445" />
+    <state width="1323" height="140" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1596717430962" />
     <state width="778" height="275" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1594699822732" />
-    <state width="1323" height="120" key="GridCell.Tab.0.right" timestamp="1595510375446">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right" timestamp="1596717430962">
+      <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="120" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1595510375446" />
+    <state width="1323" height="140" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1596717430962" />
     <state width="778" height="275" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1594699822732" />
     <state width="778" height="275" key="GridCell.Tab.1.bottom" timestamp="1594699822733">
       <screen x="0" y="0" width="1600" height="860" />

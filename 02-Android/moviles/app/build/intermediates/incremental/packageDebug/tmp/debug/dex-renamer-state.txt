@@ -1,7 +1,7 @@
-#Thu Jul 23 09:05:51 COT 2020
-base.0=C\:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+#Thu Aug 06 08:45:04 COT 2020
+base.0=E\:\\EPN\\AplicacionesMoviles\\Repos\\clases\\moviles\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\AdminGamma\\Desktop\\jair\\moviles\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
+base.1=E\:\\EPN\\AplicacionesMoviles\\Repos\\clases\\moviles\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex
