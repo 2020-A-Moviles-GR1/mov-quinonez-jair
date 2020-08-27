@@ -1,0 +1,8 @@
+{"$$indexCreated":{"fieldName":"id","unique":true,"sparse":false}}
+{"$$indexCreated":{"fieldName":"epn_cedula","unique":true,"sparse":false}}
+{"createdAt":1597671582040,"updatedAt":1597671582040,"id":1,"nombre":"Jair Andres","correo":"jair@email.com","estadoCivil":"Soltero","password":"Super34gura","epn_cedula":"11111562888888","_id":1}
+{"createdAt":1597926743270,"updatedAt":1597926743270,"id":2,"nombre":"Pepe Jose","correo":"pepe@email.com","estadoCivil":"Soltero","password":"Super34gura","epn_cedula":"1234567890","_id":2}
+{"createdAt":1597926795493,"updatedAt":1597926795493,"id":3,"nombre":"Carlos Cordova","correo":"carlos@email.com","estadoCivil":"Casado","password":"Super34gura","epn_cedula":"0987456123","_id":3}
+{"createdAt":1597926871282,"updatedAt":1597926871282,"id":4,"nombre":"Michael Cornejo","correo":"michael@email.com","estadoCivil":"Divorciado","password":"Super34gura","epn_cedula":"1717181819","_id":4}
+{"createdAt":1597926912439,"updatedAt":1597926912439,"id":5,"nombre":"Miguel Bose","correo":"miguel@email.com","estadoCivil":"Viudo","password":"Super34gura","epn_cedula":"0800800901","_id":5}
+{"createdAt":1597926957163,"updatedAt":1597926957163,"id":6,"nombre":"Este Men","correo":"este@email.com","estadoCivil":"Union Libre","password":"Super34gura","epn_cedula":"04004004002","_id":6}

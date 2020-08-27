@@ -746,10 +746,13 @@ id bottom
 id btn_anadir
 id btn_anadir_entrenador
 id btn_ciclo_vida
+id btn_crear
 id btn_devolver_respuesta
+id btn_http
 id btn_intent_implicito
 id btn_intent_respuesta
 id btn_list_view
+id btn_obtener
 id btn_resp_aceptar
 id btn_resp_cancelar
 id btn_resp_propia
@@ -913,6 +916,7 @@ layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_b_list_view
 layout activity_ciclo_vida
+layout activity_http
 layout activity_intent_envia_parametros
 layout activity_main
 layout custom_dialog

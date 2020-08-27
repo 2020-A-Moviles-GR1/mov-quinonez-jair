@@ -30,6 +30,9 @@ class MainActivity : AppCompatActivity() {
         btn_resp_propia.setOnClickListener {
             boton -> enviarIntentRespPropia()
         }
+        btn_http.setOnClickListener {
+            boton -> irHttp()
+        }
 
     }
     fun enviarIntentRespPropia(){
@@ -125,6 +128,13 @@ class MainActivity : AppCompatActivity() {
         )
         //this.startActionMode()
         startActivity(intentExplicito)
+    }
+    fun irHttp(){
+        val intent = Intent(
+            this,
+            HttpActivity::class.java
+        )
+        startActivity(intent)
     }
 
 }
