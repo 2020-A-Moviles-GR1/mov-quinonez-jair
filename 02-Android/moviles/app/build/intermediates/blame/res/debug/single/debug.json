@@ -16,6 +16,10 @@
         "source": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },
     {
+        "merged": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\build\\intermediates\\res\\merged\\debug\\layout_adapatador_persona.xml.flat",
+        "source": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\src\\main\\res\\layout\\adapatador_persona.xml"
+    },
+    {
         "merged": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -74,5 +78,9 @@
     {
         "merged": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
         "source": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_recycle.xml.flat",
+        "source": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\src\\main\\res\\layout\\activity_recycle.xml"
     }
 ]

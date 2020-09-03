@@ -5,16 +5,48 @@ import android.os.Bundle
 import android.util.Log
 import com.beust.klaxon.Klaxon
 import com.github.kittinunf.fuel.httpGet
+import com.github.kittinunf.fuel.httpPost
 import kotlinx.android.synthetic.main.activity_http.*
 import com.github.kittinunf.result.Result
 
 class HttpActivity : AppCompatActivity() {
-    val urlPrincipal = "http://192.168.1.4:1337"
+    val urlPrincipal = "http://192.168.1.3:1337"
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_http)
         btn_obtener.setOnClickListener {
             obtenerUsusarios()
+        }
+        btn_crear.setOnClickListener {
+            crearUsuario()
+        }
+    }
+    fun crearUsuario(){
+        val url = urlPrincipal + "/Usuario"
+        //"cadula": "11111562888888",
+        //"nombre": "Jair Andres",
+        //"correo": "jair@email.com",
+        //"estadoCivil": "Soltero",
+        //"password": "Super34gura"
+        val parametroUsuario: List<Pair<String, String>> = listOf(
+            "cadula" to "1122334455",
+            "nombre" to "Pepe Test",
+            "correo" to "pepe@email.com",
+            "estadoCivil" to "Casado",
+            "password" to "A12345689b"
+        )
+        url.httpPost(parametroUsuario).responseString{
+            request, response, result ->
+            when(result){
+                is Result.Failure -> {
+                    val error = result.getException()
+                    Log.i("http-klaxon", "Error: ${error}")
+                }
+                is Result.Success ->{
+                    val usuarioString = result.get()
+                    Log.i("http-klaxon", "${usuarioString}")
+                }
+            }
         }
     }
     fun obtenerUsusarios(){
