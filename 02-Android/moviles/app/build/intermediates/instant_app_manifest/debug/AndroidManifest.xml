@@ -24,6 +24,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true" >
+        <activity android:name="com.example.moviles1.RecycleActivity" />
         <activity android:name="com.example.moviles1.HttpActivity" />
         <activity android:name="com.example.moviles1.IntentEnviaParametros" >
             <intent-filter>

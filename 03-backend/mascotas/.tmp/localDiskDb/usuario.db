@@ -6,3 +6,4 @@
 {"createdAt":1597926871282,"updatedAt":1597926871282,"id":4,"nombre":"Michael Cornejo","correo":"michael@email.com","estadoCivil":"Divorciado","password":"Super34gura","epn_cedula":"1717181819","_id":4}
 {"createdAt":1597926912439,"updatedAt":1597926912439,"id":5,"nombre":"Miguel Bose","correo":"miguel@email.com","estadoCivil":"Viudo","password":"Super34gura","epn_cedula":"0800800901","_id":5}
 {"createdAt":1597926957163,"updatedAt":1597926957163,"id":6,"nombre":"Este Men","correo":"este@email.com","estadoCivil":"Union Libre","password":"Super34gura","epn_cedula":"04004004002","_id":6}
+{"createdAt":1598878737490,"updatedAt":1598878737490,"id":7,"nombre":"Pepe Test","correo":"pepe@email.com","estadoCivil":"Casado","password":"A12345689b","epn_cedula":"1122334455","_id":7}

@@ -33,6 +33,9 @@ class MainActivity : AppCompatActivity() {
         btn_http.setOnClickListener {
             boton -> irHttp()
         }
+        btn_recycler.setOnClickListener {
+            boton -> irRecycler()
+        }
 
     }
     fun enviarIntentRespPropia(){
@@ -135,6 +138,11 @@ class MainActivity : AppCompatActivity() {
             HttpActivity::class.java
         )
         startActivity(intent)
+    }
+    fun irRecycler(){
+        val intet = Intent(this,
+        RecycleActivity::class.java)
+        startActivity(intet)
     }
 
 }
