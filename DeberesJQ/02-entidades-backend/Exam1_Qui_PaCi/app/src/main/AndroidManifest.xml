@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.exam1_qui_paci">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".VistaCiudades"
+            android:parentActivityName=".Ciudad"
+            android:label="LIS-CIUDADES"></activity>
+        <activity android:name=".VistaPaises"
+            android:parentActivityName=".Pais"
+            android:label="LIST-PAISES"/>
+        <activity android:name=".Ciudad"
+            android:parentActivityName=".MainActivity"
+            android:label="ADD/EDIT-CIUDAD"/>
+        <activity android:name=".Pais"
+            android:label="ADD/EDIT-PAIS"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity"
+            android:label="PAISES-CIUDADES">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
