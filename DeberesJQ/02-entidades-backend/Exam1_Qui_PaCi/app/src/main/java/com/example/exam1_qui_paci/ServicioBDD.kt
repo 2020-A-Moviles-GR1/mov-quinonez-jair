@@ -2,6 +2,7 @@ package com.example.exam1_qui_paci
 
 import android.util.Log
 import com.beust.klaxon.Klaxon
+import com.github.kittinunf.fuel.httpDelete
 import com.github.kittinunf.fuel.httpGet
 import com.github.kittinunf.fuel.httpPost
 import com.github.kittinunf.fuel.httpPut
@@ -11,59 +12,62 @@ class ServicioBDD {
     //val list = mutableListOf<String>()
     val urlPrincipal = "http://192.168.1.3:1337"
 
-    companion object{
+    companion object {
         val urlPrincipal = "http://192.168.1.3:1337"
         var list_ciudadesHttp = mutableListOf<String>()
         var list_pais = arrayListOf<PaisC>()
 
-        fun addPais(pais: PaisC){
+        fun addPais(pais: PaisC) {
             list_pais.add(pais)
         }
-        fun deletePais(pais: PaisC){
+
+        fun deletePais(pais: PaisC) {
             list_pais.remove(pais)
         }
-        fun editPais(posi: Int, pais: PaisC){
-            list_pais.set(posi,pais)
+
+        fun editPais(posi: Int, pais: PaisC) {
+            list_pais.set(posi, pais)
         }
-        fun getPais(posi: Int):PaisC{
+
+        fun getPais(posi: Int): PaisC {
             return list_pais.get(posi)
         }
 
 
-
-
-
-
         var list_ciudad = arrayListOf<CiudadC>()
-        fun addCiudad(ciudad: CiudadC){
+        fun addCiudad(ciudad: CiudadC) {
             list_ciudad.add(ciudad)
         }
-        fun deleteCiudad(ciudad: CiudadC){
+
+        fun deleteCiudad(ciudad: CiudadC) {
             list_ciudad.remove(ciudad)
         }
-        fun editPais(posi: Int, ciudad: CiudadC){
-            list_ciudad.set(posi,ciudad)
+
+        fun editPais(posi: Int, ciudad: CiudadC) {
+            list_ciudad.set(posi, ciudad)
         }
-        fun getCiudad(posi: Int):CiudadC{
+
+        fun getCiudad(posi: Int): CiudadC {
             return list_ciudad.get(posi)
         }
-        fun obtenerCiudad(){
+
+        fun obtenerCiudad() {
 
             //var list = arrayListOf<String>()
             val url = urlPrincipal + "/ciudad"
 
-            url.httpGet().responseString {
-                    request, response, result ->
-                when(result){
+            url.httpGet().responseString { request, response, result ->
+                when (result) {
                     is Result.Success -> {
                         val data = result.get()
                         Log.i("http-get", "Datos: ${data}")
                         val ciudades = Klaxon().parseArray<CiudadHttp>(data)
-                        if(ciudades!=null){
+                        if (ciudades != null) {
                             list_ciudadesHttp.clear()
-                            ciudades.forEach{
+                            ciudades.forEach {
                                 Log.i("http-get", "Datos: ${it.nombreCiudad}")
-                                val thing = it.nombreCiudad +" "+ it.habitantes +" "+ it.puerto +" "+ it.alcalde
+                                val thing =
+                                    it.nombreCiudad + " " + it.habitantes + " " + it.puerto + " " + it.alcalde
                                 //arreglotest.add(thing)
 
                                 list_ciudadesHttp.add(thing)
@@ -75,7 +79,7 @@ class ServicioBDD {
                     }
                     is Result.Failure -> {
                         val ex = result.getException()
-                        Log.i("http-get","Error: ${ex.message}")
+                        Log.i("http-get", "Error: ${ex.message}")
                     }
 
                 }
@@ -85,8 +89,9 @@ class ServicioBDD {
             //Log.i("http-get", "Est mierda: ${list}")
             //return list
 
-    }
-        fun crearCiudad(ciudad: CiudadHttp){
+        }
+
+        fun crearCiudad(ciudad: CiudadHttp) {
             /*"var id: Int,\n" +
                     "    var createdAt: Long,\n" +
                     "    var updatedAt: Long,\n" +
@@ -102,14 +107,13 @@ class ServicioBDD {
                 "puerto" to ciudad.puerto,
                 "alcalde" to ciudad.alcalde
             )
-            url.httpPost(parametrosCiudad).responseString{
-                    request, response, result ->
-                when(result){
+            url.httpPost(parametrosCiudad).responseString { request, response, result ->
+                when (result) {
                     is Result.Failure -> {
                         val error = result.getException()
                         Log.i("http-get", "Error: ${error}")
                     }
-                    is Result.Success ->{
+                    is Result.Success -> {
                         val ciudadString = result.get()
                         Log.i("http-get", "${ciudadString}")
                     }
@@ -117,32 +121,47 @@ class ServicioBDD {
             }
         }
 
-        fun updateExpansion(identificador: Int, ciudad: CiudadHttp){
-                val url = urlPrincipal + "/ciudad/"+ identificador
-                Log.i("http-get","Este es el identificador ${url}")
-                //val instant: Instant = releaseDate.atStartOfDay(ZoneId.systemDefault()).toInstant()
-                val parametrosCiudadHttp = listOf(
-                    "nombreCiudad" to ciudad.nombreCiudad,
-                    "habitantes" to ciudad.habitantes,
-                    "puerto" to ciudad.puerto,
-                    "alcalde" to ciudad.alcalde
-                )
-                Log.i("http-klaxon","Parametros: ${parametrosCiudadHttp}")
-                url.httpPut(parametrosCiudadHttp)
-                    .responseString{
-                            req, res, result ->
-                        when(result){
-                            is Result.Failure ->{
-                                val error = result.getException()
-                                Log.i("http-klaxon","Error put: ${error}")
-                            }
-                            is Result.Success -> {
-                                val usuarioString = result.get()
-                                Log.i("http-get", " ESTE ES EL EDITADO ${usuarioString}")
-                            }
+        fun updateCiudadHttp(identificador: String, ciudad: CiudadHttp) {
+            val url = urlPrincipal + "/ciudad/" + identificador
+            Log.i("http-get", "Este es el identificador ${url}")
+            //val instant: Instant = releaseDate.atStartOfDay(ZoneId.systemDefault()).toInstant()
+            val parametrosCiudadHttp = listOf(
+                "nombreCiudad" to ciudad.nombreCiudad,
+                "habitantes" to ciudad.habitantes,
+                "puerto" to ciudad.puerto,
+                "alcalde" to ciudad.alcalde
+            )
+            Log.i("http-klaxon", "Parametros: ${parametrosCiudadHttp}")
+            url.httpPut(parametrosCiudadHttp)
+                .responseString { req, res, result ->
+                    when (result) {
+                        is Result.Failure -> {
+                            val error = result.getException()
+                            Log.i("http-klaxon", "Error put: ${error}")
+                        }
+                        is Result.Success -> {
+                            val usuarioString = result.get()
+                            Log.i("http-get", " ESTE ES EL EDITADO ${usuarioString}")
                         }
                     }
-            }
+                }
+        }
+
+        fun deleteCiudadHttp(identificador: String) {
+            val url = urlPrincipal + "/ciudad/" + identificador
+            url.httpDelete()
+                .responseString { req, res, result ->
+                    when (result) {
+                        is Result.Failure -> {
+                            val error = result.getException()
+                        }
+                        is Result.Success -> {
+                            val usuarioString = result.get()
+                            Log.i("http-get","Se elimino")
+                        }
+                    }
+                }
+        }
 
 
     }

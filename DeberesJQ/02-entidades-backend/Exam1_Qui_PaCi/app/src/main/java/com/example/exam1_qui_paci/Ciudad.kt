@@ -15,29 +15,25 @@ class Ciudad : AppCompatActivity() {
         var indice = intent.getIntExtra("posicion", -1)
         Log.i("test", "El id es ${indice}")
         //var indiceBack: CiudadHttp
-        if(indice >0){
+        if(indice >-1){
             txPrincipal.setText("EDITAR ó ELIMINAR")
             btn_guardarCiudad.setText("EDITAR CIUDAD")
-            /*var ciudad: CiudadHttp
-            txt_id.setText(ciudad.id)
-            text_nombreCiudad.setText(ciudad.nombreCiudad.toString())
-            text_habitaciones.setText(ciudad.habitantes.toString())
-            text_puerto.setText(ciudad.puerto.toString())
-            text_alcalde.setText(ciudad.alcalde.toString())*/
             btn_guardarCiudad.setOnClickListener {
                 Log.i("test", "INICIO EL UPDATE")
-                ServicioBDD.updateExpansion(indice, CiudadHttp(
+                var test = txt_id.text.toString()
+                ServicioBDD.updateCiudadHttp(test,
+                    CiudadHttp(
                         text_nombreCiudad.text.toString(),
-                        text_habitaciones.text.toString().toDouble().toString(),
-                        text_puerto.text.toString().toBoolean().toString(),
-                        text_alcalde.text.toString()
-                ))
+                        text_habitaciones.text.toString(),
+                        text_puerto.text.toString(),
+                        text_alcalde.text.toString())
+                )
                 Log.i("test", "ACABO")
                 Toast.makeText(applicationContext, "Ciudad Editada", Toast.LENGTH_SHORT).show()
                 //irCiudadLIst()
 
             }
-        }else {
+        } else {
             btn_guardarCiudad.setText("GUARDAR")
             btn_guardarCiudad.setOnClickListener{
                 ServicioBDD.crearCiudad(
@@ -52,11 +48,13 @@ class Ciudad : AppCompatActivity() {
                 limpiarCiudad()
             }
         }
+
         btn_deleteC.setOnClickListener {
-            var ciudad: CiudadC = ServicioBDD.getCiudad(indice)
-            ServicioBDD.deleteCiudad(ciudad)
+            //var ciudad: CiudadC = ServicioBDD.getCiudad(indice)
+            var ident = txt_id.text.toString()
+            ServicioBDD.deleteCiudadHttp(ident)
             Toast.makeText(applicationContext, "Ciudad Eliminada",Toast.LENGTH_SHORT).show()
-            irCiudadLIst()
+            //irCiudadLIst()
         }
 
         btn_verCiudad.setOnClickListener {
