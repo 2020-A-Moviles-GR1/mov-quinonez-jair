@@ -4,6 +4,7 @@ import android.util.Log
 import com.beust.klaxon.Klaxon
 import com.github.kittinunf.fuel.httpGet
 import com.github.kittinunf.fuel.httpPost
+import com.github.kittinunf.fuel.httpPut
 import com.github.kittinunf.result.Result
 
 class ServicioBDD {
@@ -46,7 +47,7 @@ class ServicioBDD {
         fun getCiudad(posi: Int):CiudadC{
             return list_ciudad.get(posi)
         }
-        fun obtenerCiudad()/*:ArrayList<String>*/{
+        fun obtenerCiudad(){
 
             //var list = arrayListOf<String>()
             val url = urlPrincipal + "/ciudad"
@@ -115,6 +116,34 @@ class ServicioBDD {
                 }
             }
         }
+
+        fun updateExpansion(identificador: Int, ciudad: CiudadHttp){
+                val url = urlPrincipal + "/ciudad/"+ identificador
+                Log.i("http-get","Este es el identificador ${url}")
+                //val instant: Instant = releaseDate.atStartOfDay(ZoneId.systemDefault()).toInstant()
+                val parametrosCiudadHttp = listOf(
+                    "nombreCiudad" to ciudad.nombreCiudad,
+                    "habitantes" to ciudad.habitantes,
+                    "puerto" to ciudad.puerto,
+                    "alcalde" to ciudad.alcalde
+                )
+                Log.i("http-klaxon","Parametros: ${parametrosCiudadHttp}")
+                url.httpPut(parametrosCiudadHttp)
+                    .responseString{
+                            req, res, result ->
+                        when(result){
+                            is Result.Failure ->{
+                                val error = result.getException()
+                                Log.i("http-klaxon","Error put: ${error}")
+                            }
+                            is Result.Success -> {
+                                val usuarioString = result.get()
+                                Log.i("http-get", " ESTE ES EL EDITADO ${usuarioString}")
+                            }
+                        }
+                    }
+            }
+
 
     }
 }

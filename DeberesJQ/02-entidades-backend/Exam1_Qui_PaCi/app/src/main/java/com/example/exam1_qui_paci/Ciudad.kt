@@ -14,35 +14,38 @@ class Ciudad : AppCompatActivity() {
         ServicioBDD.obtenerCiudad()
         var indice = intent.getIntExtra("posicion", -1)
         Log.i("test", "El id es ${indice}")
-        if(indice>-1){
+        //var indiceBack: CiudadHttp
+        if(indice >0){
             txPrincipal.setText("EDITAR ó ELIMINAR")
             btn_guardarCiudad.setText("EDITAR CIUDAD")
-            var ciudad: CiudadC = ServicioBDD.getCiudad(indice)
-            text_nombreCiudad.setText(ciudad.nombre_ciudad)
-            text_habitaciones.setText(ciudad.num_habitantes.toString())
+            /*var ciudad: CiudadHttp
+            txt_id.setText(ciudad.id)
+            text_nombreCiudad.setText(ciudad.nombreCiudad.toString())
+            text_habitaciones.setText(ciudad.habitantes.toString())
             text_puerto.setText(ciudad.puerto.toString())
-            text_alcalde.setText(ciudad.alcalde)
-
+            text_alcalde.setText(ciudad.alcalde.toString())*/
             btn_guardarCiudad.setOnClickListener {
-                ServicioBDD.editPais(indice, CiudadC(
-                    text_nombreCiudad.text.toString(),
-                    text_habitaciones.text.toString().toDouble(),
-                    text_puerto.text.toString().toBoolean(),
-                    text_alcalde.text.toString()
+                Log.i("test", "INICIO EL UPDATE")
+                ServicioBDD.updateExpansion(indice, CiudadHttp(
+                        text_nombreCiudad.text.toString(),
+                        text_habitaciones.text.toString().toDouble().toString(),
+                        text_puerto.text.toString().toBoolean().toString(),
+                        text_alcalde.text.toString()
                 ))
+                Log.i("test", "ACABO")
                 Toast.makeText(applicationContext, "Ciudad Editada", Toast.LENGTH_SHORT).show()
-                irCiudadLIst()
+                //irCiudadLIst()
 
             }
         }else {
             btn_guardarCiudad.setText("GUARDAR")
             btn_guardarCiudad.setOnClickListener{
-
                 ServicioBDD.crearCiudad(
                         CiudadHttp(text_nombreCiudad.text.toString(),
                             text_habitaciones.text.toString().toString(),
                             text_puerto.text.toString().toString(),
                             text_alcalde.text.toString())
+
                     )
                 Toast.makeText(applicationContext, "Ciudad Guardada",Toast.LENGTH_SHORT).show()
                 //irCiudadLIst()

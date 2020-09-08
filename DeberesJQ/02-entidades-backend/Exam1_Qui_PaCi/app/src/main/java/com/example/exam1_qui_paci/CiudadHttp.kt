@@ -9,4 +9,5 @@ class CiudadHttp (
     var puerto: String,
     var alcalde: String
 ) {
+
 }

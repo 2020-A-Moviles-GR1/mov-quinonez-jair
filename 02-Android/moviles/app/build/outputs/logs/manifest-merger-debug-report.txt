@@ -1,14 +1,18 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-60:12
 MERGED from [androidx.core:core-ktx:1.3.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\eb479fdffc910c6be917d68547a49099\jetified-core-ktx-1.3.0\AndroidManifest.xml:2:1-9:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\38d73252397e14f6b2ca8374e68e18f7\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\656c1ef9c96eb9844c4fefaa31eea625\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:17:1-38:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\bf8b737aa06780ce71e42516cac8efab\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\f3dbe6f90843045abe4143e3bf77be20\recyclerview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\548e9fe7c0dbc0938b6828b2531865ee\jetified-play-services-base-17.0.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\a47ac503a53104cb9453ec1628337d0a\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\1b90b1be4df66705fb91818db0752e78\jetified-play-services-basement-17.0.0\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\196689ac7938efd9fe7bde63e1bf8c1a\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\9e0815ff37e116a5a118a87691bd2001\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\24e0220640645498700fd025d00cbee9\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -38,35 +42,51 @@ MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\qtand\.gradle\caches
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\b77732ae052c8a7beadaefc4f5cc2d1b\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\cfdba3a9d264c21140cf4b27a073b375\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\ef7f8b788d30752a01fb2308ec81e29a\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-60:12
+INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-60:12
 	package
 		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:3:5-35
 		INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml
 		INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:1-60:12
 		INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.INTERNET
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:5:5-67
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:5:22-64
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:11:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:6:5-79
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:12:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:6:22-76
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:12:22-76
 application
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:8:5-36:19
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:14:5-58:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\656c1ef9c96eb9844c4fefaa31eea625\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\656c1ef9c96eb9844c4fefaa31eea625\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\548e9fe7c0dbc0938b6828b2531865ee\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\548e9fe7c0dbc0938b6828b2531865ee\jetified-play-services-base-17.0.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\a47ac503a53104cb9453ec1628337d0a\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\a47ac503a53104cb9453ec1628337d0a\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\1b90b1be4df66705fb91818db0752e78\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\1b90b1be4df66705fb91818db0752e78\jetified-play-services-basement-17.0.0\AndroidManifest.xml:22:5-26:19
 MERGED from [androidx.core:core:1.3.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\e270a6e88d0fcab34dc57babf6858d5a\core-1.3.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.core:core:1.3.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\e270a6e88d0fcab34dc57babf6858d5a\core-1.3.0\AndroidManifest.xml:24:5-89
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\6118f679eabfffe3c12f082544a87853\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
@@ -74,67 +94,79 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\qt
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.3.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\e270a6e88d0fcab34dc57babf6858d5a\core-1.3.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:19:9-35
 	android:label
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:11:9-41
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:17:9-41
 	android:roundIcon
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:12:9-54
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:18:9-54
 	android:icon
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:10:9-43
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:16:9-43
 	android:allowBackup
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:9:9-35
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:15:9-35
 	android:theme
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:14:9-40
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:20:9-40
 	android:usesCleartextTraffic
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:15:9-44
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:21:9-44
+meta-data#com.google.android.geo.API_KEY
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:31:9-33:55
+	android:value
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:33:13-52
+	android:name
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:32:13-58
+activity#com.example.moviles1.MapsActivity
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:35:9-37:68
+	android:label
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:37:13-56
+	android:name
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:36:13-41
 activity#com.example.moviles1.RecycleActivity
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:16:9-62
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:38:9-53
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:16:19-50
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:38:19-50
 activity#com.example.moviles1.HttpActivity
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:17:9-50
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:39:9-50
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:17:19-47
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:39:19-47
 activity#com.example.moviles1.IntentEnviaParametros
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:18:9-26:20
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:40:9-48:20
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:18:19-56
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:40:19-56
 intent-filter#action:name:android.intent.action.SEND+category:name:android.intent.category.DEFAULT+data:mimeType:text/plain
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:19:13-25:29
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:41:13-47:29
 action#android.intent.action.SEND
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:42:17-69
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:42:25-66
 category#android.intent.category.DEFAULT
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:22:17-76
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:44:17-76
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:22:27-73
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:44:27-73
 data
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:24:17-55
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:46:17-55
 	android:mimeType
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:24:23-52
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:46:23-52
 activity#com.example.moviles1.BListViewActivity
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:27:9-55
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:49:9-55
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:27:19-52
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:49:19-52
 activity#com.example.moviles1.CicloVida
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:28:9-47
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:50:9-47
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:28:19-44
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:50:19-44
 activity#com.example.moviles1.MainActivity
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:29:9-35:20
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:51:9-57:20
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:29:19-47
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:51:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:30:13-34:29
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:52:13-56:29
 action#android.intent.action.MAIN
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:31:17-69
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:53:17-69
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:53:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:33:17-77
+ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:55:17-77
 	android:name
-		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:33:27-74
+		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml:55:27-74
 uses-sdk
 INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml
@@ -145,10 +177,18 @@ MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\qtand\.gradle\caches\t
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\38d73252397e14f6b2ca8374e68e18f7\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\656c1ef9c96eb9844c4fefaa31eea625\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\656c1ef9c96eb9844c4fefaa31eea625\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\bf8b737aa06780ce71e42516cac8efab\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\bf8b737aa06780ce71e42516cac8efab\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\f3dbe6f90843045abe4143e3bf77be20\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\f3dbe6f90843045abe4143e3bf77be20\recyclerview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\548e9fe7c0dbc0938b6828b2531865ee\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\548e9fe7c0dbc0938b6828b2531865ee\jetified-play-services-base-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\a47ac503a53104cb9453ec1628337d0a\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\a47ac503a53104cb9453ec1628337d0a\jetified-play-services-tasks-17.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\1b90b1be4df66705fb91818db0752e78\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\1b90b1be4df66705fb91818db0752e78\jetified-play-services-basement-17.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\196689ac7938efd9fe7bde63e1bf8c1a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\196689ac7938efd9fe7bde63e1bf8c1a\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\9e0815ff37e116a5a118a87691bd2001\jetified-appcompat-resources-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -217,3 +257,29 @@ INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\movi
 		INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml
 		ADDED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml
 		INJECTED from E:\EPN\AplicacionesMoviles\Repos\mov-quinonez-jair\02-Android\moviles\app\src\main\AndroidManifest.xml
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\84d72358cb7edc9162e5c678460a7256\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\548e9fe7c0dbc0938b6828b2531865ee\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\548e9fe7c0dbc0938b6828b2531865ee\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\548e9fe7c0dbc0938b6828b2531865ee\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\548e9fe7c0dbc0938b6828b2531865ee\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\1b90b1be4df66705fb91818db0752e78\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\1b90b1be4df66705fb91818db0752e78\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] C:\Users\qtand\.gradle\caches\transforms-2\files-2.1\1b90b1be4df66705fb91818db0752e78\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58

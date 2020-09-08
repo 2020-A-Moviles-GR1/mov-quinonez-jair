@@ -12,6 +12,10 @@
         "source": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
+        "merged": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_maps.xml.flat",
+        "source": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\src\\main\\res\\layout\\activity_maps.xml"
+    },
+    {
         "merged": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
         "source": "E:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
     },

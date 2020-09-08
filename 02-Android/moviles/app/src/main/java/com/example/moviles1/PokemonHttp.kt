@@ -1,5 +1,9 @@
 package com.example.moviles1
 
+import com.beust.klaxon.Converter
+import com.beust.klaxon.JsonObject
+import com.beust.klaxon.JsonValue
+import com.beust.klaxon.Klaxon
 import java.util.*
 
 class PokemonHttp(
@@ -15,5 +19,7 @@ class PokemonHttp(
         fechaCreacion= Date(createdAt)
         fechaActualizacion= Date(updatedAt)
     }
+
+
 
 }

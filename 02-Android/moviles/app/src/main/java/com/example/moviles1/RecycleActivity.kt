@@ -5,6 +5,7 @@ import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_recycle.*
 
 class RecycleActivity : AppCompatActivity() {
+    var numeroLikes = 0
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_recycle)
@@ -70,5 +71,9 @@ class RecycleActivity : AppCompatActivity() {
         rv_usuarios.layoutManager = androidx.recyclerview.widget.LinearLayoutManager(actividad)
         adaptadirUsusario.notifyDataSetChanged()
 
+    }
+    fun anadirLikesEnActividad(numero: Int){
+        this.numeroLikes = this.numeroLikes + numero
+        tv_titulo_rv.text = numeroLikes.toString()
     }
 }

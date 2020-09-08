@@ -36,6 +36,9 @@ class MainActivity : AppCompatActivity() {
         btn_recycler.setOnClickListener {
             boton -> irRecycler()
         }
+        btn_mapa.setOnClickListener {
+            boton -> irMapa()
+        }
 
     }
     fun enviarIntentRespPropia(){
@@ -143,6 +146,13 @@ class MainActivity : AppCompatActivity() {
         val intet = Intent(this,
         RecycleActivity::class.java)
         startActivity(intet)
+    }
+    fun irMapa(){
+        val ir = Intent(this,
+            MapsActivity::class.java
+        )
+        startActivity(ir)
+
     }
 
 }

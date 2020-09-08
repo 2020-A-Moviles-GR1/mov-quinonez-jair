@@ -1,5 +1,9 @@
 package com.example.moviles1
 
+import com.beust.klaxon.Converter
+import com.beust.klaxon.JsonArray
+import com.beust.klaxon.JsonValue
+import com.beust.klaxon.Klaxon
 import java.util.*
 import kotlin.collections.ArrayList
 
@@ -20,4 +24,7 @@ class UsuarioHttp(
         fechaCreacion= Date(createdAt)
         fechaActualizacion = Date(updatedAt)
     }
+
+
+
 }
