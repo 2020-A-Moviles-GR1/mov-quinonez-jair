@@ -12,8 +12,9 @@ import kotlin.math.log
 class VistaPaises : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
         setContentView(R.layout.activity_vista_paises)
-        val lista_paises = ServicioBDD.list_pais
+        val lista_paises = ServicioBDD.list_paisesHttp
 
         val adaptador = ArrayAdapter(
             this,

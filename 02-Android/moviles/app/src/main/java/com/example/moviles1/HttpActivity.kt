@@ -81,7 +81,7 @@ class HttpActivity : AppCompatActivity() {
 
                     val usuarios = Klaxon()
                         .parseArray<UsuarioHttp>(data)
-                    if (usuarios != null) {
+                   /* if (usuarios != null) {
                         usuarios.forEach {
                             Log.i(
                                 "http-klaxon",
@@ -93,8 +93,32 @@ class HttpActivity : AppCompatActivity() {
                                 }
                             }
                         }
+                    }*/
+                    //DEBER KLAXON
+                    if(usuarios != null){
+                        usuarios.forEach{
+                            Log.i(
+                                "http-klaxon",
+                                "\nNombre_Usuario: ${it.nombre}\n"
+                            )
+                            if(it.pokemons is List<*>){
+                                if(it.pokemons!!.size > 0){
+                                    it.pokemons!!.forEach{
+                                        it as PokemonHttp
+                                        Log.i(
+                                            "http-klaxon",
+                                            "id_Usuario: ${it.usuario} ------- Nombre_Pokemon: ${it.nombre}\n"
+                                        )
+                                    }
+                                }
+                            }
+                        }
                     }
+                    Log.i("http-klaxon","\n\nCONSULTAR POKEMONS\n\n")
+                    obtenerPokemons()
+                    //DEBER KLAXON
                 }
+
                 is Result.Failure -> {
                     val ex = result.getException()
                     Log.i("http-Klaxon", "Error: ${ex.message}")
@@ -104,5 +128,33 @@ class HttpActivity : AppCompatActivity() {
 
         }
     }
+    //DEBER KLAXON
+    fun obtenerPokemons() {
+        val url = urlPrincipal + "/pokemon"
+        url
+            .httpGet()
+            .responseString{
+                    request, response, result ->
+                when(result){
+                    is Result.Success ->{
+                        val data = result.get()
+                        val pokemons = Klaxon()
+                            .converter(PokemonHttp.myConverter)
+                            .parseArray<PokemonHttp>(data)
+                        if(pokemons != null){
+                            pokemons.forEach{
+                                Log.i("http-klaxon", "POKEMON: ${it.nombre}" + ", USUARIO: ${it.usuario}\n"
+                                )
+                            }
+                        }
+                    }
+                    is Result.Failure ->{
+                        val ex = result.getException()
+                        Log.i("http-klaxon","Error: ${ex.message}")
+                    }
+                }
+            }
+    }
+//DEBER KLAXON
 }
 
