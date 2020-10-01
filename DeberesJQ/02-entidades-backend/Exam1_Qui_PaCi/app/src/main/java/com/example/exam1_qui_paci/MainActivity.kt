@@ -22,9 +22,7 @@ class MainActivity : AppCompatActivity() {
         btn_irpais.setOnClickListener{
             boton -> irPais()
         }
-        btn_maps.setOnClickListener {
-            boton -> irMaps()
-        }
+
     }
 
     override fun onStart() {

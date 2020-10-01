@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#009688"
     tools:context=".VistaPaises">
 
     <ListView
@@ -11,6 +12,7 @@
         android:layout_width="371dp"
         android:layout_height="256dp"
         android:layout_marginTop="188dp"
+        android:background="#009688"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,7 +24,8 @@
         android:layout_height="44dp"
         android:text="LISTA"
         android:textAlignment="center"
-        android:textColor="#0B0A0A"
+        android:textColor="#FFC107"
+        android:textSize="18sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/list_paises"
         app:layout_constraintEnd_toEndOf="parent"

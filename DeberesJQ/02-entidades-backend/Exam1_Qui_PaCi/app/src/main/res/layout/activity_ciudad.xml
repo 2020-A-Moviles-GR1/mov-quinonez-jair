@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#009688"
     tools:context=".Ciudad">
 
     <EditText
@@ -112,9 +113,10 @@
 
     <Button
         android:id="@+id/btn_verCiudad"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="124dp"
+        android:layout_height="47dp"
         android:layout_marginTop="368dp"
+        android:background="#FFC107"
         android:text="Ver Ciudades"
         app:layout_constraintEnd_toEndOf="@+id/text_alcalde"
         app:layout_constraintHorizontal_bias="0.144"
@@ -126,6 +128,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="368dp"
+        android:background="#FFC107"
         android:text="Guardar"
         app:layout_constraintEnd_toEndOf="@+id/text_alcalde"
         app:layout_constraintHorizontal_bias="0.0"
@@ -136,9 +139,9 @@
         android:id="@+id/txPrincipal"
         android:layout_width="209dp"
         android:layout_height="36dp"
-        android:text="Principal"
+        android:text="PRINCIPAL"
         android:textAlignment="center"
-        android:textColor="#0B0A0A"
+        android:textColor="#FFC107"
         android:textSize="18sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toTopOf="@+id/text_nombreCiudad"
@@ -152,6 +155,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="368dp"
+        android:background="#FFC107"
         android:text="ELIMINAR"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.812"
