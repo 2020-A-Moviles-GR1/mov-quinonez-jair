@@ -21,18 +21,31 @@ module.exports = {
     puerto:{
       type:'string',
       
-      isIn: ['Si','No'],
+      isIn: ['Si','No', 'INDEFINIDO'],
       defaultsTo: 'INDEFINIDO'
     },
     alcalde:{
       type:'string',
-      minLength: 6,
+      minLength: 3,
       required: true,
-    }
-    /* pais:{
-      model:'pais',
+    },
+    latitud:{
+      type:'string',
       required: true
-    } */
+    },
+    longitud:{
+      type:'string',
+      required: true
+    },
+    url_img:{
+      type:'string',
+      required: true
+    },
+    direccion_url:{
+      type:'string',
+      required: true
+      
+    }  
   },
 
 };

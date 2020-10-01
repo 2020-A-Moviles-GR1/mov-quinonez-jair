@@ -7,10 +7,75 @@
     tools:context=".Ciudad">
 
     <EditText
+        android:id="@+id/text_direccion"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="292dp"
+        android:ems="10"
+        android:hint="Direccion_Page"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/text_puerto"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_puerto"
+        app:layout_constraintTop_toBottomOf="@+id/text_puerto" />
+
+    <EditText
+        android:id="@+id/text_imagen"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:hint="Link Imagen"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/text_puerto"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_puerto"
+        app:layout_constraintTop_toBottomOf="@+id/text_puerto" />
+
+    <EditText
+        android:id="@+id/text_habitaciones"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Nro. Habitantes"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/text_nombreCiudad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_nombreCiudad"
+        app:layout_constraintTop_toBottomOf="@+id/text_nombreCiudad" />
+
+    <EditText
+        android:id="@+id/text_latitud"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="272dp"
+        android:ems="10"
+        android:hint="Latitud"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/text_nombreCiudad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_nombreCiudad"
+        app:layout_constraintTop_toBottomOf="@+id/text_nombreCiudad" />
+
+    <EditText
+        android:id="@+id/text_longitud"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="204dp"
+        android:ems="10"
+        android:hint="Longitud"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/text_nombreCiudad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_nombreCiudad"
+        app:layout_constraintTop_toBottomOf="@+id/text_nombreCiudad" />
+
+    <EditText
         android:id="@+id/text_alcalde"
         android:layout_width="366dp"
         android:layout_height="52dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Alcalde"
         android:inputType="textPersonName"
@@ -23,12 +88,12 @@
         android:id="@+id/text_puerto"
         android:layout_width="366dp"
         android:layout_height="52dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:hint="Puerto"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="@+id/text_habitaciones"
-        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/text_habitaciones"
         app:layout_constraintTop_toBottomOf="@+id/text_habitaciones" />
 
@@ -45,27 +110,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <EditText
-        android:id="@+id/text_habitaciones"
-        android:layout_width="366dp"
-        android:layout_height="52dp"
-        android:layout_marginTop="40dp"
-        android:ems="10"
-        android:hint="Nro. Habitantes"
-        android:inputType="numberDecimal"
-        app:layout_constraintEnd_toEndOf="@+id/text_nombreCiudad"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/text_nombreCiudad"
-        app:layout_constraintTop_toBottomOf="@+id/text_nombreCiudad" />
-
     <Button
         android:id="@+id/btn_verCiudad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="368dp"
         android:text="Ver Ciudades"
         app:layout_constraintEnd_toEndOf="@+id/text_alcalde"
-        app:layout_constraintHorizontal_bias="0.226"
+        app:layout_constraintHorizontal_bias="0.144"
         app:layout_constraintStart_toEndOf="@+id/btn_guardarCiudad"
         app:layout_constraintTop_toBottomOf="@+id/text_alcalde" />
 
@@ -73,7 +125,7 @@
         android:id="@+id/btn_guardarCiudad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="368dp"
         android:text="Guardar"
         app:layout_constraintEnd_toEndOf="@+id/text_alcalde"
         app:layout_constraintHorizontal_bias="0.0"
@@ -99,25 +151,11 @@
         android:id="@+id/btn_deleteC"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
+        android:layout_marginTop="368dp"
         android:text="ELIMINAR"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintHorizontal_bias="0.812"
         app:layout_constraintStart_toEndOf="@+id/btn_guardarCiudad"
         app:layout_constraintTop_toBottomOf="@+id/text_alcalde" />
-
-    <EditText
-        android:id="@+id/txt_id"
-        android:layout_width="144dp"
-        android:layout_height="44dp"
-        android:ems="10"
-        android:hint="ID"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.557" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

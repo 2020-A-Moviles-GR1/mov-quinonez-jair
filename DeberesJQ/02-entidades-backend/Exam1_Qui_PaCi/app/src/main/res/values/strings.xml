@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Exam1_Qui_PaCi</string>
+    <string name="title_activity_maps_ciudad">Map</string>
 </resources>

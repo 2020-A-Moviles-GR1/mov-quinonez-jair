@@ -1,4 +1,4 @@
-#Tue Sep 08 19:49:21 COT 2020
+#Mon Sep 14 08:22:18 COT 2020
 base.0=E\:\\EPN\\AplicacionesMoviles\\Repos\\mov-quinonez-jair\\02-Android\\moviles\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex

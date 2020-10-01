@@ -15,12 +15,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //obtenerCiudad()
+
         btn_irciudad.setOnClickListener{
             boton -> irCiudad()
         }
         btn_irpais.setOnClickListener{
             boton -> irPais()
+        }
+        btn_maps.setOnClickListener {
+            boton -> irMaps()
         }
     }
 
@@ -60,6 +63,10 @@ class MainActivity : AppCompatActivity() {
     fun irPais(){
         val intentExplicito = Intent(this, Pais::class.java)
         startActivity(intentExplicito)
+    }
+    fun irMaps(){
+        var intent = Intent(this, MapsCiudad::class.java)
+        startActivity(intent)
     }
 
 }

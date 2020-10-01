@@ -15,6 +15,7 @@ class VistaPaises : AppCompatActivity() {
 
         setContentView(R.layout.activity_vista_paises)
         val lista_paises = ServicioBDD.list_paisesHttp
+        Log.i("test", "PAISES EN EL VIEW ${lista_paises}")
 
         val adaptador = ArrayAdapter(
             this,
@@ -23,13 +24,18 @@ class VistaPaises : AppCompatActivity() {
         )
         list_paises.adapter = adaptador
         list_paises.onItemClickListener = AdapterView.OnItemClickListener { parent, view, position, id ->
+
             Log.i("lista", "Posi ${lista_paises[position]}")
-            escogerPais(position)
+            escogerPais(lista_paises[position].id)
+            Log.i("test", "${lista_paises[position].id}")
 
             //Log.i("lista", "LA p $position")
         }
 
 
+    }
+    init {
+        ServicioBDD.obtenerPais()
     }
     fun escogerPais(sitio: Int){
         var intent = Intent(
