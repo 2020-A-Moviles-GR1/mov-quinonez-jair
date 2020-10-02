@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".Pais">
+
+    <Button
+        android:id="@+id/btn_verPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:layout_marginEnd="4dp"
+        android:background="#FFC107"
+        android:text="VER PAISES "
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/text_ciudad"
+        app:layout_constraintHorizontal_bias="0.255"
+        app:layout_constraintStart_toEndOf="@+id/btn_guardarPais"
+        app:layout_constraintTop_toBottomOf="@+id/text_ciudad" />
+
+    <Button
+        android:id="@+id/btn_guardarPais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:background="#FFC107"
+        android:text="Guardar"
+        app:layout_constraintEnd_toEndOf="@+id/text_ciudad"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_ciudad"
+        app:layout_constraintTop_toBottomOf="@+id/text_ciudad" />
+
+    <EditText
+        android:id="@+id/text_ciudad"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Ciudad"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/text_costa"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_costa"
+        app:layout_constraintTop_toBottomOf="@+id/text_costa" />
+
+    <EditText
+        android:id="@+id/text_costa"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Costa"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/text_area"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_area"
+        app:layout_constraintTop_toBottomOf="@+id/text_area" />
+
+    <EditText
+        android:id="@+id/text_area"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:hint="Area"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@+id/text_nombrePais"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/text_nombrePais"
+        app:layout_constraintTop_toBottomOf="@+id/text_nombrePais" />
+
+    <EditText
+        android:id="@+id/text_nombrePais"
+        android:layout_width="366dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:hint="Nombre Pais"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.355"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_eliminar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="216dp"
+        android:background="#FFC107"
+        android:text="ELIMINAR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.923"
+        app:layout_constraintStart_toStartOf="@+id/text_ciudad"
+        app:layout_constraintTop_toBottomOf="@+id/text_ciudad" />
+
+    <TextView
+        android:id="@+id/t_Titulo"
+        android:layout_width="275dp"
+        android:layout_height="43dp"
+        android:text="Principal"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="24sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toTopOf="@+id/text_nombrePais"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.54" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
